@@ -1,0 +1,147 @@
+html {
+  height:100%;
+}
+body {
+	margin:0;
+  margin-bottom:2em;
+	padding:0;
+	background-color:#000000;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: 'Cantata One', serif;
+	font-size:medium;
+	color:#331300;
+	font-size:medium;
+}
+h2 {
+	font-family: 'Cantata One', serif;
+	color: #331300;
+	font-size:medium;
+}
+hr {
+	border-top: 1px dotted #E0E0E0;
+	border-bottom: none;
+	border-left:none;
+	border-right:none;
+	width:50%
+}
+a {
+	text-decoration: none;
+	color:#000000;
+}
+a:hover {
+	 	background-color:#331300;
+ 	color:white;
+}
+#wrapper {
+	width:900px;
+	min-width:800px;
+	display:block;
+	background-color:#FFFFFF;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+	-moz-border-radius: 25px 25px 25px 25px;
+	-webkit-border-radius: 25px 25px 25px 25px;
+	-o-border-radius: 25px 25px 25px 25px;
+	border-radius: 25px 25px 25px 25px;
+}
+#header {
+	padding:15px;
+	margin-left:0px;
+	margin-right:0px;
+  text-align: center;
+	background-color:#FFD595;
+	-moz-border-radius: 23px 23px 0px 0px;
+	-webkit-border-radius:23px 23px 0px 0px;
+	-o-border-radius: 23px 23px 0px 0px;
+	border-radius: 23px 23px 0px 0px;
+}
+
+#navigation li a {
+  font-size:1.5em;
+}
+
+#navigation-one {
+	  background-color: #FFD595;
+    height: 2.5em;
+    margin: -2em auto;
+    text-align: center;
+    width: 100%;
+    border-bottom: thin solid #000000;
+}
+
+#navigation-one ul li {
+	font-weight:bold;
+	display:inline-block;
+ 	background-color:#331300;
+	border-radius:15px 15px 0px 0px;
+	width:150px;
+	margin-left:15px;
+	height:18px;
+	padding-top:1em;
+}
+
+#navigation-one a:link {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#navigation-one a:visited {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#navigation-one a:hover {
+	color: #CC7A30;
+}
+#navigation-one a:active {
+	text-decoration:none;
+}
+#main {
+	text-align:center;
+	margin-left:2%;
+	margin-right:2%;
+	margin-top:2em;
+	padding:10px;
+	margin-bottom:50px;
+  min-height: 500px;
+}
+#main ul li {
+	list-style:none;
+	margin-bottom:1em;
+}
+
+footer {
+	clear: both;
+	font-size:10px;
+	text-align:center;
+	padding:15px;
+	margin:0;
+	border-top: thin solid #000000;
+	background-color:#FFD595;
+	border-radius: 0px 0px 23px 23px;
+}
+
+#title {
+	width:100%;
+	margin-left:50px;
+	margin:auto;
+}
+#left {
+	float:left;
+	width:25%;
+	margin:auto;
+	margin-right:5%;
+}
+
+#right {
+	display: block;
+	float:right;
+	width:65%;
+	margin-left:5%;
+  text-align: left;
+}
+
